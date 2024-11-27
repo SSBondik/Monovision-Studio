@@ -120,3 +120,65 @@ html {
 		color: var(--light-color);
 	}
 }
+
+.about {
+	padding-top: 80px;
+	background-color: var(--light-color);
+}
+
+.about__title {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	color: var(--dark-color);
+}
+
+.about__text {
+	width: 1100px;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 40px;
+	color: var(--dark-color);
+
+	span {
+		color: #a5a5a5;
+	}
+}
+
+.services {
+	display: flex;
+	column-gap: 10px;
+	margin-top: 80px;
+}
+
+.services__item {
+	width: 50%;
+
+	ul {
+		margin-top: 20px;
+		padding: 0;
+
+		li {
+			margin-top: 10px;
+			list-style-type: none;
+			font-weight: 400;
+			font-size: 16px;
+			color: var(--dark-color);
+		}
+	}
+}
+
+.services__item-subtitle {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--dark-color);
+}
+
+.services__text {
+	width: 50%;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.02em;
+	color: var(--dark-color);
+}
