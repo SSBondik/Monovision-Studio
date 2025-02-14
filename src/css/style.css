@@ -285,3 +285,67 @@ html {
 #sky {
 	grid-column: 2/4;
 }
+
+.costumers {
+	padding: 80px 0 100px 0;
+	background-color: var(--light-color);
+}
+
+.costumers__wrapper {
+	margin-top: 53px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+
+	img {
+		width: calc((100% - 90px) / 4);
+		box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 88px var(--footer-padding-inline);
+	background-color: #000;
+	font-weight: 400;
+	font-size: 20px;
+	color: var(--light-color);
+}
+
+.footer__social {
+	padding-left: 0;
+	display: flex;
+	column-gap: 30px;
+	list-style: none;
+
+	li {
+		border: 1px solid var(--light-color);
+		width: 32px;
+		height: 32px;
+		background: rgba(217, 217, 217, 0);
+
+		a {
+			display: flex;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				width: 22px;
+				height: 22px;
+			}
+		}
+	}
+}
+
+.footer__addr {
+	font-style: normal;
+}
+
+.footer__tel {
+	text-decoration: none;
+	color: var(--light-color);
+}
